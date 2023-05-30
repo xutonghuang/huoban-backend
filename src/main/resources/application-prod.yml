@@ -1,0 +1,13 @@
+# 线上配置文件
+spring:
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: '线上数据库url'
+    username: self
+    password: xxxxxx
+  # session 失效时间
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
